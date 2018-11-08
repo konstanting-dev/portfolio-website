@@ -1,2 +1,2 @@
 # portfolio-website
-Portfolio website (Netlify + Express.js)
+Portfolio website (using Netlify + Express.js)

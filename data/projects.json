@@ -1,0 +1,210 @@
+{
+  "project" : [
+    {
+      "title" : "BNTouch Project",
+      "header" : "BNTouch company corporate website",
+      "short_description" : "Wordpress website with several landing pages, request forms and blog",
+      "links" : [
+        {
+          "type" : "website",
+          "link" : "https://bntouch.com/"
+        }
+      ],
+      "about" : ["Project developed as a contructor with the BNTouch company. It is a Wordpress website",
+      "with its own built theme which helps BNTouch promoting its main product BNTouch CRM, has blog and",
+      "different request forms. <br><br> At this project I worked as a Full-Stack Developer. I was responsible for",
+      "building markup form scratch, applying it to Wordpress and adding different JavaScript functionality such as",
+      "jQuery plugins and custom logic behind the forms and the blog.<br><br>",
+      "After it was build I have been continuing to maintain website by creating different landing pages and editing current ones."],
+      "screenshots" : [
+        "img/bntouch_1.png",
+        "img/bntouch_2.png",
+        "img/bntouch_3.png",
+        "img/bntouch_4.png",
+        "img/bntouch_5.png"
+      ],
+      "technologies" : [
+        "PHP, Wordpress CMS",
+        "JavaScript, jQuery",
+        "Responsive Website Design",
+        "HTML5 semantic",
+        "CSS3 + LESS, PostCSS"
+      ]
+    },
+    {
+      "title" : "Homeowners association Project",
+      "header" : "Mobile App for apartment renters",
+      "short_description" : "Mobile application built with help of Cordova, Vue.js and Quasar Framework",
+      "links" : [
+        {
+          "type" : "github",
+          "link" : "https://github.com/SoulShaker/housing_payments_app"
+        }
+      ],
+      "about" : ["Project developed as a contructor with the Smart Gyrus web agency. It is a mobile app",
+        "with its own design which serves housing payments for apartment renters.<br><br>",
+        "At this project I worked as a Front End Developer. I was responsible for",
+        "building markup form scratch, developing JavaScript functionality, working with API"],
+      "screenshots" : [
+        "img/tsg_1.png",
+        "img/tsg_2.png",
+        "img/tsg_3.png",
+        "img/tsg_4.png",
+        "img/tsg_5.png",
+        "img/tsg_6.png",
+        "img/tsg_7.png"
+      ],
+      "technologies" : [
+        "Vue.js",
+        "JavaScript ES6",
+        "Quasar Framework",
+        "Cordova",
+        "Webpack",
+        "CSS3 + LESS"
+      ]
+    },
+    {
+      "title" : "Makufoods Project",
+      "header" : "Makufoods company corporate website",
+      "short_description" : "Opencart website",
+      "links" : [
+        {
+          "type" : "website",
+          "link" : "https://makufoods.ru/"
+        }
+      ],
+      "about" : ["Project developed as a contructor with the Smart Gyrus web agency. It is an online shop built with Opencart CMS",
+        "with its own built theme. <br><br>",
+        " At this project I worked as a Full-Stack Developer. I was responsible for",
+        "building markup form scratch, applying it to Opencart, modifying Opencart modules and adding different JavaScript functionality such as",
+        "jQuery plugins.<br><br>",
+        "After it was build I have been continuing to maintain website by creating different landing pages and editing current ones."],
+      "screenshots" : [
+        "img/makufoods_1.png",
+        "img/makufoods_2.png",
+        "img/makufoods_3.png",
+        "img/makufoods_4.png",
+        "img/makufoods_5.png"
+      ],
+      "technologies" : [
+        "PHP, Opencart CMS",
+        "JavaScript, jQuery",
+        "HTML5 semantic",
+        "CSS3 + LESS, PostCSS"
+      ]
+    },
+    {
+      "title" : "PingPong Project",
+      "header" : "PingPong Blockchain Landing Page",
+      "short_description" : "Website developed for promoting blockchain project with HTML5, CSS3 and Google Charts",
+      "links" : [
+        {
+          "type" : "website",
+          "link" : "https://soulshaker.github.io/pingpong-website/"
+        },
+        {
+          "type" : "github",
+          "link" : "https://github.com/SoulShaker/pingpong-website"
+        }
+      ],
+      "about" : ["I was working with the technologies below:"],
+      "screenshots" : [
+        "img/pingpong_1.jpg",
+        "img/pingpong_2.jpg",
+        "img/pingpong_3.jpg",
+        "img/pingpong_4.jpg",
+        "img/pingpong_5.jpg"
+      ],
+      "technologies" : [
+        "JavaScript, jQuery",
+        "Responsive Website Design",
+        "HTML5 semantic",
+        "CSS3 + LESS, BEM, PostCSS"
+      ]
+    },
+    {
+      "title" : "Mydigitalscore Solomoto Project",
+      "header" : "Solomoto Quiz-Website",
+      "short_description" : "Website developed as a contructor on the Upwork with HTML5, CSS3 and Facebook API",
+      "links" : [
+        {
+          "type" : "github",
+          "link" : "https://github.com/SoulShaker/quiz_website"
+        },
+        {
+          "type" : "website",
+          "link" : "http://mydigitalscore.solomoto.com/"
+        }
+      ],
+      "about" : ["I was working with the technologies below:"],
+      "screenshots" : [
+        "img/solomoto_1.png",
+        "img/solomoto_2.png",
+        "img/solomoto_3.png",
+        "img/solomoto_4.png",
+        "img/solomoto_5.png"
+      ],
+      "technologies" : [
+        "JavaScript, jQuery",
+        "Responsive Website Design",
+        "HTML5 semantic",
+        "CSS3",
+        "Facebook API"
+      ]
+    },
+    {
+      "title" : "Sdaem Project",
+      "header" : "Sdaem website",
+      "short_description" : "Website developed on Joomla CMS with custom flats filter as a Full-Stack Developer at Smart Gyrus",
+      "links" : [
+        {
+          "type" : "website",
+          "link" : "https://sdaem.by"
+        }
+      ],
+      "about" : ["In this project I participated as part of a small group which has a Designer and a Team Lead. I was responsible for",
+        "building markup form scratch, applying it to Joomla, modifying Joomla components and modules and adding different JavaScript functionality such as",
+        "jQuery plugins.<br><br>","I was working with the technologies below:"],
+      "screenshots" : [
+        "img/sdaem_1.png",
+        "img/sdaem_2.png",
+        "img/sdaem_3.png",
+        "img/sdaem_4.png",
+        "img/sdaem_5.png"
+      ],
+      "technologies" : [
+        "PHP, Joomla CMS",
+        "JavaScript, jQuery",
+        "Responsive Website Design",
+        "HTML5 semantic",
+        "CSS3"
+      ]
+    },
+    {
+      "title" : "Relax-Yachting Project",
+      "header" : "Relax Yachting website",
+      "short_description" : "Website developed on Joomla CMS as a Full-Stack Developer at Smart Gyrus",
+      "links" : [
+        {
+          "type" : "website",
+          "link" : "https://relax-yachting.com/"
+        }
+      ],
+      "about" : ["In this project I acted as part of a small group which has a Designer and a Team Lead. <br>I was working with the technologies below:"],
+      "screenshots" : [
+        "img/relax_1.png",
+        "img/relax_2.png",
+        "img/relax_3.png",
+        "img/relax_4.png",
+        "img/relax_5.png"
+      ],
+      "technologies" : [
+        "PHP, Joomla CMS",
+        "JavaScript, jQuery",
+        "Responsive Website Design",
+        "HTML5 semantic",
+        "CSS3"
+      ]
+    }
+  ]
+}
