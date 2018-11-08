@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 const serverless = require('serverless-http');
 import data from '../data/projects.json'
 const app = express();
