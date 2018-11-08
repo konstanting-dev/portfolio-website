@@ -1,16 +1,11 @@
 import express from 'express';
 const serverless = require('serverless-http');
-import data from './data/projects.json'
+import data from '../data/projects.json'
 const app = express();
 app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/dist'));
 
 const router = express.Router();
-app.use('/.netlify/functions/server', router);
-
-router.get('/', (req,res) =>{
-  res.redirect('/charles')
-});
 
 router.get('/bntouch', (req, res) => {
   res.render('index', data.project[0])
@@ -39,6 +34,8 @@ router.get('/sdaem', (req, res) => {
 router.get('/relax-yachting', (req, res) => {
   res.render('index', data.project[6])
 });
+
+app.use('/.netlify/functions/server', router);
 
 module.exports = app;
 module.exports.handler = serverless(app);
