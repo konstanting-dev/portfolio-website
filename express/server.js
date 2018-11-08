@@ -1,6 +1,6 @@
 const express = require('express');
 const serverless = require('serverless-http');
-import data from '../data/projects.json'
+const data = require ('../data/projects.json');
 const app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
