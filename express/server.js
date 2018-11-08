@@ -2,6 +2,7 @@ import express from 'express';
 const serverless = require('serverless-http');
 import data from '../data/projects.json'
 const app = express();
+app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/dist'));
 
