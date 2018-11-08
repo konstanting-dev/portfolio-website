@@ -5,3 +5,4 @@ src
 webpack.config.js
 webpack.prod.js
 postcss.config.js
+functions
