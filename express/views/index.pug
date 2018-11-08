@@ -1,0 +1,88 @@
+doctype html
+html
+  head
+    title=title+' | Front-End Developer | Konstantin Golovan'
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+    // <link rel="stylesheet" href="assets/css/main.css" />
+    noscript
+      link(rel='stylesheet', href='assets/css/noscript.css')
+    link(rel='stylesheet', href='main.css')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.4.2/css/all.css', integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.5/webcomponents.min.js')
+    link(rel='import', href='./awesome-slider.html')
+  body.is-preload
+    #page-wrapper
+      // Header
+      header#header
+        h1
+          a(href='index.html') Konstantin Golovan
+        nav#nav
+          ul
+            li.special
+              a.menuToggle(href='#menu')
+                span Menu
+              #menu
+                ul
+                  li
+                    a(href='index.html') Home
+                  li
+                    a(href='index.html#banner') About
+                  li
+                    a(href='index.html#projects') Projects
+                  li
+                    a(href='index.html#contact') Contact
+                ul.icons
+                  li
+                    a.icon.fab.fa-github(href='https://github.com/SoulShaker')
+                      span.label Github
+                  li
+                    a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/')
+                      span.label LinkedIn
+                  li
+                    a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com')
+                      span.label Email
+      article#main
+        section.wrapper.style5
+          .inner
+            h2=header
+            p=short_description
+            each val in links
+              a.project__link(href=val.link)
+                if val.type === 'website'
+                  i.fas.fa-external-link-alt
+                  |  Visit website
+                else
+                  i.fab.fa-github
+                  |  Check Github
+            .media
+              .bar(data-src='')
+                i
+              awesome-slider(autostart='true', bullets='true')
+                each src in screenshots
+                  item(source=src)
+            section
+              h4 About this project
+              p !{about.join(' ')}
+              hr
+              h4 Used technologies
+              ul
+                each tech in technologies
+                  li=tech
+      footer#footer
+        ul.icons
+          li
+            a.icon.fab.fa-github(href='https://github.com/SoulShaker')
+              span.label Github
+          li
+            a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/')
+              span.label LinkedIn
+          li
+            a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com')
+              span.label Email
+        ul.copyright
+          li
+            | Design:
+            a(href='http://html5up.net') HTML5 UP
+    script(src='js/bundle.min.js')
+
