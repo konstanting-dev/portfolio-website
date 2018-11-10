@@ -43,7 +43,7 @@ router.get('/relax-yachting', (req, res) => {
 });
 
 app.use('/.netlify/functions/server', router);
-app.use('/.netlify/functions/server', express.static(path.join('dist')));
+app.use('/.netlify/functions/server', express.static(path.resolve('./dist')));
 app.use(function(err, req, res, next) {
   console.log(err);
 });
