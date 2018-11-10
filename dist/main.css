@@ -29,10 +29,13 @@ ol, ul {
   list-style: none; }
 
 blockquote, q {
-  quotes: none; }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none; }
+  quotes: "\201c" "\201d"; }
+  blockquote:after,  q:after {
+    content: close-quote;
+  }
+  blockquote:before, q:before {
+    content: open-quote;
+  }
 
 table {
   border-collapse: collapse;
@@ -171,10 +174,9 @@ hr {
     margin: 4.5em 0; }
 
 blockquote {
-  border-left: solid 4px #fff;
   font-style: italic;
   margin: 0 0 2em 0;
-  padding: 0.5em 0 0.5em 2em; }
+  padding: 0.5em 0 0.5em 0; }
 
 code {
   background: rgba(144, 144, 144, 0.25);
@@ -2288,6 +2290,16 @@ body.is-menu-visible #menu {
        transition-delay: 3s;
     opacity: 1;
     z-index: 1; }
+  #banner blockquote, #banner cite {
+    position: relative;
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition-delay: 4s;
+    -o-transition-delay: 4s;
+    transition-delay: 4s;
+    opacity: 1;
+    z-index: 1; }
     #banner p a {
       color: inherit; }
   #banner .more {
@@ -2297,9 +2309,9 @@ body.is-menu-visible #menu {
     -o-transition: transform 0.75s ease, opacity 0.75s ease;
     transition: transform 0.75s ease, opacity 0.75s ease;
     transition: transform 0.75s ease, opacity 0.75s ease, -webkit-transform 0.75s ease;
-    -webkit-transition-delay: 4.5s;
-    -o-transition-delay: 4.5s;
-       transition-delay: 4.5s;
+    -webkit-transition-delay: 5s;
+    -o-transition-delay: 5s;
+       transition-delay: 5s;
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
@@ -2369,7 +2381,9 @@ body.is-preload #banner h2 {
   body.is-preload #banner h2:before, body.is-preload #banner h2:after {
     width: 0; }
 
-body.is-preload #banner p {
+body.is-preload #banner p,
+body.is-preload #banner blockquote,
+body.is-preload #banner cite{
   opacity: 0; }
 
 body.is-preload #banner .more {
