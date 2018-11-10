@@ -3,6 +3,7 @@ import serverless from 'serverless-http';
 import projectPage from '../views/index.pug';
 import path from 'path';
 import data from '../data/projects.json';
+import serveStatic from 'serve-static';
 const app = express();
 
 const router = express.Router();
@@ -43,7 +44,7 @@ router.get('/relax-yachting', (req, res) => {
 });
 
 app.use('/.netlify/functions/server', router);
-app.use('/.netlify/functions/server', express.static(path.resolve('./dist')));
+app.use('/.netlify/functions/server', serveStatic('dist'));
 
 app.use(function(err, req, res, next) {
   console.log(err);
