@@ -1,5 +1,6 @@
-import express from 'express';
-import data from './data/projects.json'
+const express = require('express');
+const fs = require('fs');
+const data = require ('./data/projects.json');
 const app = express();
 app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/dist'));

@@ -12,9 +12,7 @@
     "start": "webpack-dev-server --open --mode development",
     "build-webpack": "webpack --config webpack.prod.js",
     "server-local": "nodemon --exec babel-node server-local.js",
-    "build:server": "babel express/server.js",
-    "build": "netlify-lambda -c webpack.functions.js build express",
-    "serve": "netlify-lambda -c webpack.functions.js serve express"
+    "build:server": "babel express/server.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
