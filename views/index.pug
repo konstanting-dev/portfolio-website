@@ -33,13 +33,13 @@ html
                     a(href='index.html#contact') Contact
                 ul.icons
                   li
-                    a.icon.fab.fa-github(href='https://github.com/SoulShaker')
+                    a.icon.fab.fa-github(href='https://github.com/SoulShaker' target='_blank')
                       span.label Github
                   li
-                    a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/')
+                    a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/' target='_blank')
                       span.label LinkedIn
                   li
-                    a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com')
+                    a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com' target='_blank')
                       span.label Email
       article#main
         section.wrapper.style5
@@ -47,7 +47,7 @@ html
             h2=header
             p=short_description
             each val in links
-              a.project__link(href=val.link)
+              a.project__link(href=val.link target='_blank')
                 if val.type === 'website'
                   i.fas.fa-external-link-alt
                   |  Visit website
@@ -71,17 +71,17 @@ html
       footer#footer
         ul.icons
           li
-            a.icon.fab.fa-github(href='https://github.com/SoulShaker')
+            a.icon.fab.fa-github(href='https://github.com/SoulShaker' target='_blank')
               span.label Github
           li
-            a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/')
+            a.icon.fab.fa-linkedin-in(href='https://www.linkedin.com/in/kanstantsin-halavan/' target='_blank')
               span.label LinkedIn
           li
-            a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com')
+            a.icon.fas.fa-envelope(href='mailto:kanstantsin.h@gmail.com' target='_blank')
               span.label Email
         ul.copyright
           li
             | Design:
-            a(href='http://html5up.net') HTML5 UP
+            a(href='http://html5up.net' target='_blank') HTML5 UP
     script(src='js/bundle.min.js')
 
